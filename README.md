@@ -18,7 +18,7 @@ This is a Python-based interactive game that helps users learn coding languages 
 
 1. Clone this repository to your local machine.
 2. Install the required packages listed in `requirements.txt` using pip:
-3. Run the `coding_language_learning_game.py` script in your Python environment to start the game.
+3. Run the `main.py` script in your Python environment to start the game.
 4. Choose a difficulty level and start guessing the output of the given Python code snippets.
 
 ## How to Play
