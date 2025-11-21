@@ -61,9 +61,11 @@ The readability of the code is very good. Every function is defined clearly with
 ## 6. Possible Extensions
 
 **Improvements**
+
 The content inside of the dictionaries de_snippets and difficulty_levels is very wide, so both should contain more linebreaks for better readability.
 
 **Extensions**
+
 A first logical extension of the program would be to be able to change the difficulty of the follow-up question after finishing a question, so the user can alternate between difficulties during one iteration of the program.
 A second logical extension would be to prevent the same question from a particular difficulty to be asked twice during one iteration of the program, because in this way the point system does not give a not realistic enough representation for the player's knowledge.
 A third logical extension for error prevention would be to add a try statement for the difficulty input, because now when inputting an invalid difficulty a Keyerror arises and the program terminates.
