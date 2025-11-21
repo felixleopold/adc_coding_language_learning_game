@@ -53,3 +53,14 @@ Lives remaining: 3
 Your current score: 10
 Do you want to play again? (y/n): [user input]
 ```
+## 5. Code quality
+### The readability of the code is very good. Every function is defined clearly with whitespaces between them. The complexity of the code is simple, even a beginning coder can understand it. It just includes function definitions, a while loop, if statements and dictionaries. So the strengthness of this code lays in the fact that it is very clear and easy to understand. However, in the dictionaries, the code is very wide, as it cannot be fit in one screen, not following the PEP8 principles. Once you chose a difficulty (either easy, medium or hard), you cannot change it anymore. Additionally, there are only 2 questions for each difficulty, which are picked randomly. Therefore, the same question can get repeated several times, especially if you can't change the difficulty.
+
+## 6. Possible Extensions
+### Improvements
+#### The content inside of the dictionaries de_snippets and difficulty_levels is very wide, so both should contain more linebreaks for better readability.
+
+### Extensions
+#### A first logical extension of the program would be to be able to change the difficulty of the follow-up question after finishing a question, so the user can alternate between difficulties during one iteration of the program.
+#### A second logical extension would be to prevent the same question from a particular difficulty to be asked twice during one iteration of the program, because in this way the point system does not give a not realistic enough representation for the player's knowledge.
+#### A third logical extension for error prevention would be to add a try statement for the difficulty input, because now when inputting an invalid difficulty a Keyerror arises and the program terminates.
